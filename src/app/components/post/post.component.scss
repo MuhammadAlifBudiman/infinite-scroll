@@ -1,22 +1,46 @@
 .post {
-  border: 1px solid #ddd;
-  padding: 16px;
-  margin-bottom: 16px;
-  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+  }
 }
 
 .post-header {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 15px;
+
+  h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #222;
+  }
 }
 
 .profile-photo {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   object-fit: cover;
+  border: 2px solid #007bff;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
