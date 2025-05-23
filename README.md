@@ -25,7 +25,7 @@ InfiniteScroll is an Angular application demonstrating the implementation of inf
 1. Clone the repository:
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/MuhammadAlifBudiman/infinite-scroll.git
    cd infinite-scroll
    ```
 
